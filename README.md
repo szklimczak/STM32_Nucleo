@@ -12,7 +12,8 @@ Zadanie polegało na stworzeniu programu pozwalającego wyświetlić dowolną ko
 
 ### Wyświetlacz 7-segmentowy
 W zadaniu należało napisać procedurę wyświetlającą na zadanym wyświetlaczu zadaną cyfrę. Początkowo trzeba było ustalić w „Pinout & Configuration” funkcje wyprowadzeń odpowiedzialnych za sterowanie
-wyświetlaczami siedmiosegmentowymi.
+wyświetlaczami siedmiosegmentowymi. PC8, PC9, PC10 i PC11 odpowiadają za wybór wyświetlacza. PC0 do PC7 odpowiadają za
+wybór pola wyświetlacza.
 
 ### Przyciski
 ...
