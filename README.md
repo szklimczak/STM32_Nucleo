@@ -11,7 +11,7 @@ Wykorzystano środowisko STM32CubeIDE
 Zadanie polegało na stworzeniu programu pozwalającego wyświetlić dowolną kombinacje kolorów czterech diod RGB. Finalny program powinien zaświecić wszystkie cztery diody RGB w wybranej kombinacji (np.: R G B W). Literki oznaczają kolor świecenia diody.
 
 ### Wyświetlacz 7-segmentowy
-...
+W zadaniu należało napisać procedurę wyświetlającą na zadanym wyświetlaczu zadaną cyfrę.
 
 ### Przyciski
 ...
