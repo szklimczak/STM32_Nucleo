@@ -22,4 +22,4 @@ Zadanie polegało na napisaniu programu prezentującego liczbę naciśniętych p
 Program wysyła po porcie szeregowym procentowy poziom jasności otoczenia oczytany za pomocą fotorezystora. Dane są aktualizowane z częstotliwością 1Hz, po wysłaniu z komputera znaku inicjalizującego logowanie danych (np.: ’#’). Przy testowaniu programu wykorzystano aplikację CuteCom.
 
 ### ADC DMA
-Akwizycja danych z przetwornika A/C za pomocą przerwania. W obsłudze przerwania zegara wypełniamy danymi dwie tablice: BufferT i BufferAD. Pierwsza z tablic zawiera czas wejścia do obsługi przerwania, druga zawiera wynik odczytany z przetwornika A/D.
+Akwizycja danych z przetwornika A/C za pomocą przerwania. W obsłudze przerwania zegara wypełniamy danymi dwie tablice: BufferT i BufferAD. Pierwsza z tablic zawiera czas wejścia do obsługi przerwania, druga zawiera wynik odczytany z przetwornika A/D. Dane interpretujemy za pomocą pliku Matlaba.
