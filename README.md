@@ -19,7 +19,7 @@ wybór pola wyświetlacza.
 Zadanie polegało na napisaniu programu prezentującego liczbę naciśniętych przycisków na wyświetlaczu (2 wyświetlacze siedmiosegmentowa na licznik od każdego z przycisków). W ćwiczeniu należało najpierw zdefiniować sygnały PB0 i PB5 związane z przyciskami jako GPIO_EXTI0 oraz GPIO_EXTI5 oraz zezwolić na przerwania od linii EXTI0 i EXTI5. Gotowy program pozwala na zliczanie liczby przyciśnięć w górę i w dół (prawy przycisk zwiększa liczbę naciśnięć, lewy zmniejsza).
 
 ### ADC
-Program wysyła po porcie szeregowym procentowy poziom jasności otoczenia oczytany za pomocą fotorezystora.
+Program wysyła po porcie szeregowym procentowy poziom jasności otoczenia oczytany za pomocą fotorezystora. Dane są aktualizowane z częstotliwością 1Hz, po wysłaniu z komputera znaku inicjalizującego logowanie danych (np.: ’#’).
 
 ### ADC DMA
 ...
