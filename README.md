@@ -16,7 +16,7 @@ wyświetlaczami siedmiosegmentowymi. PC8, PC9, PC10 i PC11 odpowiadają za wybó
 wybór pola wyświetlacza.
 
 ### Przyciski
-Zadanie polegało na napisaniu programu prezentującego liczbę naciśniętych przycisków na wyświetlaczu (2 wyświetlacze siedmiosegmentowa na licznik od każdego z przycisków). 
+Zadanie polegało na napisaniu programu prezentującego liczbę naciśniętych przycisków na wyświetlaczu (2 wyświetlacze siedmiosegmentowa na licznik od każdego z przycisków). W ćwiczeniu należało najpierw zdefiniować sygnały PB0 i PB5 związane z przyciskami jako GPIO_EXTI0 oraz GPIO_EXTI5 oraz zezwolić na przerwania od linii EXTI0 i EXTI5.
 
 ### ADC
 ...
